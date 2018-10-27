@@ -202,7 +202,13 @@ branding-invision {
 
 }
 
+.mySlides1 {
+  display:none;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+}
 .AD {
   display: block;
     margin-left: auto;
