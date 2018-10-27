@@ -185,6 +185,19 @@ branding-invision {
 }
 
 
-.row .col-md-6 {
+.mySlides1 {
+  
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.mySlides {
+  display:none;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
