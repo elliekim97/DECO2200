@@ -200,53 +200,110 @@ branding-invision {
 }
 
 
+/*Cards*/
+.card{border: none; background-color: transparent;}
 
 
 
-
-
-.dropbtn{
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 13px 8px;
-  text-decoration: none;
-  width: 150px;
-  font-size: 16px;
-  font-family: avenir;
-  transition: 0.4s;
+.responsive {
+    width: 100%;
+    max-width: 842px;
+    height: auto;
 }
 
-.dropdown:hover .dropbtn{
-  background: powderblue;
-  color: black;
+.welcome-button-container{
+	margin-top: 20px;
 }
 
- .dropdown{
-  display: inline-block;
+.welcome-button{
+	background-color: #000;
+	border-radius: 0px 0px 0px 0px;
+	border: 1px solid #000;
+	font-family:'Helvetica', Sans-Serif;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;  padding: 10px;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background: lightcyan;
-  z-index: 1;
+.welcome-button:hover{
+	background-color: #fff;
+	border-color: #000;
+	color: #000;
+}
+.welcome-button2{
+	background-color: #000;
+	border-radius: 0px 0px 0px 0px;
+	border: 1px solid #000;
+	font-family:'Helvetica', Sans-Serif;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase; padding: 10px;
+}
+.welcome-button2:hover{
+	background-color: #fff;
+	border-color: #000;
+	color: #000;
+}
 
+.master-heading{
+	padding-top: 50px;
+}
+
+.section-heading{
+	padding-top: 100px;
+}
+
+.slide-show{
+	padding: 30px 0px 50px 0px;
+}
+
+/*Footer*/
+.footer{
+	margin-top: 50px;
+	padding-top: 30px;
+	width: 100%;
+	min-height: 100px;
+	background-color: #fff;
 
 }
 
-.dropdown-content a{
-  color: black;
-  text-decoration: none;
-  display: block;
+.hoverTable{
+		width:100%;
+		border-collapse:collapse;
+	}
+
+	/* Define the default color for all the table rows */
+	.hoverTable th{
+		background: #fff;
+	}
+	/* Define the hover highlight color for the table row */
+    .hoverTable th:hover {
+          opacity: 0.6;
+
+    }
+
+.photo {
+
+	position: relative;
+	left: 550px; top: -300px;
+	max-width: 300px;
+	width: 100%;
+    height: auto;
 }
 
-.dropdown-content a:hover {
-  background: powderblue;
-  color: black;
-  border-radius: 0 20px 0 0;
+.responsive {
+    width: 100%;
+    max-width: 842px;
+    height: auto;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.back-button{
+	background-color: #000;
+	border-radius: 0px 0px 0px 0px;
+	border: 1px solid #000;
+	font-family:'Helvetica', Sans-Serif;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	position: fixed;
 }

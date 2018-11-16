@@ -1,8 +1,3 @@
-/*This Custom CSS file has not been structured in any particular order.
-
-Modify this file to your hearts content and make your website look awesome!*/
-
-
 body{
 	background-color: #00000;
 	padding-top: 80px;
@@ -84,9 +79,9 @@ h1, h2, h3, h4, h5, h6 {
 
 	h1.welcome-special{
 
-		font-size: 60px;
-		font-family: 'Avenir', sans-serif;
-		font-weight: 300;
+		font-size: 35px;
+		font-family: Helvetica;
+		FONT-STYLE: ITALIC;
 
 		z-index:1;
 		opacity: 1;
@@ -203,8 +198,6 @@ branding-invision {
 
 
 
-
-
 .dropbtn{
   display: inline-block;
   color: black;
@@ -231,7 +224,6 @@ branding-invision {
   position: absolute;
   background: lightcyan;
   z-index: 1;
-
 
 }
 

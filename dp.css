@@ -250,3 +250,6 @@ branding-invision {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+.card{border: none; background-color: transparent;}
